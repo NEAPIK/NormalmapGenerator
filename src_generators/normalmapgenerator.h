@@ -37,7 +37,7 @@ public:
                        double blueMultiplier, double alphaMultiplier);
     QImage calculateNormalmap(const QImage& input, Kernel kernel, double strength = 2.0, bool invert = false, 
                               bool tileable = true, bool keepLargeDetail = true,
-                              int largeDetailScale = 25, double largeDetailHeight = 1.0);
+                              int largeDetailScale = 100, double largeDetailHeight = 1.0);
     const IntensityMap& getIntensityMap() const;
 
 private:
